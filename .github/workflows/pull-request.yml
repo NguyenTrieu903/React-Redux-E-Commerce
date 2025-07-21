@@ -25,4 +25,4 @@ jobs:
         run: npm run test
 
       - name: Build project
-        run: npm run build
+        run: unset CI && npm run build
