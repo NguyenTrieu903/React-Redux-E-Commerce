@@ -1,14 +1,12 @@
 name: Ecommerce-fun CI/CD
 
 on:
-  pull_request:
-    types: [closed]
+  push:
     branches: [main, master]
 
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
-    if: github.event.pull_request.merged == true
 
     strategy:
       matrix:
