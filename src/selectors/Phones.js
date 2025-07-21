@@ -76,7 +76,6 @@ export const getBasketPhonesWithCount = (state)=>{
         R.map(phoneWithCount),
         R.map(id => getPhonesById(state,id))
     )(uniqueIds);
-    console.log("Phones in basket are ", phones);
     return phones;
 };
 
