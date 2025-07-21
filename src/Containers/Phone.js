@@ -78,7 +78,7 @@ class Phone extends React.Component{
         return(
             <div>
                <div>
-                    <p className ='lead'> Quick Shop</p>
+                    <p className = 'lead'> Quick Shop</p>
                     <BasketCart />
                     <div className='form-group'>
                         <h1>{phone.name}</h1>
