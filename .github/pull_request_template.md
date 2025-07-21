@@ -1,1 +1,1 @@
-* [ ] Have you tested your code?
+- [ ] Have you tested your code?
